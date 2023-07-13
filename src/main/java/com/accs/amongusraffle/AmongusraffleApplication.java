@@ -19,11 +19,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AmongusraffleApplication implements CommandLineRunner {
 
   public static final String CIUDADANO_BODY =
-      "Estimado monitor:\n\nTu rol en el juego de la mano negra es: Ciudadano.\n\nLos policías son: %s y %s. Éste es un mensaje automático generado por un programa informático. La recomendación es que borres éste mensaje tras su recepción.\n\nMucha suerte y felices colonias.";
+      "Estimado monitor:\n\nTu rol en el juego de la mano negra es: Ciudadano.\n\nLos policías son: %s y %s.\n\nÉste es un mensaje automático generado por un programa informático. La recomendación es que borres éste mensaje tras su recepción.\n\nMucha suerte y felices colonias.";
   public static final String MANO_NEGRA_BODY =
-      "Estimado monitor:\n\nTu rol en el juego de la mano negra es: Mano negra. La otra mano negra es: %s.\n\nÉste es un mensaje automático generado por un programa informático. La recomendación es que borres éste mensaje tras su recepción.\n\nMucha suerte y felices colonias.";
+      "Estimado monitor:\n\nTu rol en el juego de la mano negra es: Mano negra.\n\nLa otra mano negra es: %s.\n\nÉste es un mensaje automático generado por un programa informático. La recomendación es que borres éste mensaje tras su recepción.\n\nMucha suerte y felices colonias.";
   public static final String POLICIA_BODY =
-      "Estimado monitor:\n\nTu rol en el juego de la mano negra es: Policía. Tu compañero es: %s.\n\nÉste es un mensaje automático generado por un programa informático. La recomendación es que borres éste mensaje tras su recepción.\n\nMucha suerte y felices colonias.";
+      "Estimado monitor:\n\nTu rol en el juego de la mano negra es: Policía.\n\nTu compañero es: %s.\n\nÉste es un mensaje automático generado por un programa informático. La recomendación es que borres éste mensaje tras su recepción.\n\nMucha suerte y felices colonias.";
   public static final String SUBJECT = "Tu rol en la mano negra";
 
   private final EmailSender emailSender;
